@@ -1,0 +1,27 @@
+.button {
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.primary {
+  background-color: #EF4444;
+  color: white;
+}
+
+.medium {
+  font-size: 1rem;
+
+}
+
+.default {
+  border: 1px solid #ccc;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
