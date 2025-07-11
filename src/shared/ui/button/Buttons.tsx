@@ -18,7 +18,7 @@ export const Buttons: FC<ButttontProps> = ({
       styles[size],
       styles[color],
       {
-        [styles.disabled] : disabled
+        [styles.disabled]:disabled
       }
       )
   return (

@@ -11,5 +11,5 @@ export interface TypographyProps  {
 }
 
 export type TVariant = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'bodyText' | 'smallBodyText'
-export type TColor = 'white' | '#EF4444' | 'black'
+export type TColor = 'white' | 'red' | 'black'
 export type TWieght = 'regular' | 'medium'| 'semiBold' | 'bold'

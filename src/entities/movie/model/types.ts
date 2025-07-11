@@ -1,4 +1,4 @@
-export type Movie=  {
+export type Movie =  {
   id: number;
   title: string;
   overview: string;
@@ -10,9 +10,13 @@ export type Movie=  {
 };
 
 
+// import { Movie } from './types';
+
 export interface MovieStore {
-    movies: Movie[];
-    isLoading: boolean;
-    error: string |null;
-    fetchMovies: () => Promise<void>    
+  popular: Movie[];
+  trending: Movie[];
+  series: Movie[];
+  isLoading: boolean;
+  error: string | null;
+  fetchAll: () => Promise<void>;
 }
