@@ -10,7 +10,7 @@ export const PopularList: FC = () => {
     }, []);
     if (isLoading) return <p>Loading movies...</p>;
     if (error) return <p style={{ color: 'red' }}>Error: {error}</p>;
-
+// as;lkdfalsdfjal
   return (
     <>
       <div className={style.main}>
